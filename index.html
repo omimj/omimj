@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+  <title>Marlon James Portfolio Page</title>
+</head>
+<body>
+  <!-- Header Section contains navbar and title info -->
+  <section class="banner" id="mjay">
+    <div class="banContainer">
+      <!-- Navbar Items -->
+      <nav id="navbar">
+        <div class="menuStack" id="mStack">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="navDiv" id="navDiv">
+          <ul class="navList">
+            <li class="navItems"><a href="#mjay" class="navLink logo">MJay</a></li>
+            <div class="listRight">
+                <li class="navItems"><a href="#about" class="navLink">About</a></li>
+                <li class="navItems"><a href="#portfolio" class="navLink">Portfolio</a></li>
+                <li class="navItems"><a href="#contact" class="navLink">Contact</a></li>
+            </div>
+          </ul>
+        </div>
+
+        <!-- Phone Nav -->
+        <div class="navPhone animated fadeInLeftBig" id="navPhone">
+          <a href="#mjay" class="navPLinks">MJay</a>
+          <a href="#about" class="navPLinks">About</a>
+          <a href="#portfolio" class="navPLinks">Portfolio</a>
+          <a href="#contact" class="navPLinks">Contact</a>
+        </div>
+      </nav>
+      <!-- Header Items -->
+      <header>
+        <h1 class="title">Marlon James</h1>
+        <h2 class="titleCap">Front End Web Designer</h2>
+        <p class="quote">“Creativity is nothing, but a mind set free.” –Torrie T. Asai</p>
+      </header>
+    </div>
+  </section>
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <div class="abGrid">
+        <div class="abBox">
+            <h3 class="heading abHeading">About Me</h3>
+            <!-- <div class="line"></div> -->
+            <p class="aboutMe">Hi my name is Marlon, nice to meet you. As a junior web designer/ graphic designer I spend most of my time looking for ways to improve myself. I'm a naturally curious person, and I am constantly working on learning new things. In my spare time you'll probably find me listening to music, watching anime or chilling with friends.</p>
+        </div>
+        <img src="res/me.jpg" alt="Photo of Marlon" class="aboutImg">
+    </div>
+    <!-- Skills Section -->
+    <h4>Skills</h4>
+    <div class="skills">
+      <div class="skillFlex">
+        <div class="skillFlexCircle">
+            <i class="fab fa-html5 skillIcon"></i>
+        </div>
+        <div class="expBar">
+         <p class="exText">HTML5</p>
+         <div class="bar">
+           <div class="innerBar">
+             <p>90%</p>
+           </div>
+         </div>
+        </div>
+      </div>
+      <div class="skillFlex">
+          <div class="skillFlexCircle">
+              <i class="fab fa-css3-alt skillIcon"></i>
+          </div>
+          <div class="expBar">
+            <p class="exText">CSS3</p>
+            <div class="bar">
+                <div class="innerBar cssBar">
+                    <p>80%</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="skillFlex">
+            <div class="skillFlexCircle">
+                <i class="fab fa-js skillIcon"></i>
+            </div>
+            <div class="expBar">
+              <p class="exText">Javascript</p>
+              <div class="bar">
+                <div class="innerBar jsBar">
+                  <p>40%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="pWidth">
+        <h3 class="heading headingWhite">Portfolio</h3>
+        <div class="gallery">
+          <div class="imageCon gIF">
+              <img src="res/teccenti.jpg" alt="#" class="galImg featured">
+              <div class="overlay">
+                  <div class="text">
+                      <p class="picName">TecCenti</p>
+                      <p class="picCap">A spanish blog used in my Spanish class to work on writing the language. Uses html, css and bootstrap. WIP</p>
+                      <a href="# " class="btn galBtn">View Site</a>
+                  </div>
+              </div>
+          </div>
+          <div class="imageCon gI1">
+              <img src="res/quote.jpg" alt="#" class="galImg">
+              <div class="overlay">
+                  <div class="text">
+                      <p class="picName">Quote Machine</p>
+                      <p class="picCap">Generates random quotes. Uses Html, Css and Javascript.</p>
+                      <a href="# " class="btn galBtn">View Site</a>
+                  </div>
+              </div>
+          </div>
+          <div class="imageCon gI2">
+            <img src="res/radio.jpg" alt="#" class="galImg gImg2">
+            <div class="overlay">
+                <div class="text">
+                    <p class="picName">Radioactivity Coin Flip</p>
+                    <p class="picCap">Simulates the randomness of flipping a coin. Uses Html, Css and Javascript.</p>
+                    <a href="# " class="btn galBtn">View Site</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="pBtn">
+            <a href="# " class="btn">See More</a>
+        </div>
+        
+    </div>
+  </section>
+  <!-- Contact Me Section-->
+  <section class="contact" id="contact">
+    <h3 class="heading">Contact Me</h3>
+    <form action="" class="contactForm">
+      <div class="nameEmail">
+        <div class="name">
+            <label for="fullName">Name</label>
+            <br>
+            <input type="text" name="fullName">
+        </div>    
+        <div class="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="text" name="email">
+        </div> 
+      </div>
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea name="message" id="phone-comment" cols="30" rows="10" placeholder="Send me a message."></textarea>
+      </div>
+      <div class="but">
+            <button type="submit" id="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </section>
+  <!-- Footer (Social Media) -->
+  <footer class="social">
+    <h3 class="heading headingWhite">My Social Media</h3>
+    <p>You can keep in touch with me here.</p>
+    <div class="socialImgDiv">
+      <div class="skillFlexCircle sFWhite">
+        <i class="fab fa-instagram socialIcon"></i>
+      </div>
+      <div class="skillFlexCircle sFWhite">
+          <i class="fab fa-twitter socialIcon"></i>
+      </div>
+      <div class="skillFlexCircle sFWhite">
+            <i class="fab fa-facebook socialIcon"></i>
+      </div>
+    </div>
+    <p>&copy; Marlon James 2019</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
