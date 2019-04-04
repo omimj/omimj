@@ -1,17 +1,17 @@
-<!-- Test -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <title>Marlon James Portfolio Page</title>
 </head>
 <body>
@@ -45,7 +45,7 @@
       <!-- Header Items -->
       <header>
         <h1 class="title">Marlon James</h1>
-        <h2 class="titleCap">Front End Web Designer</h2>
+        <h2 class="titleCap">Front End Web Developer</h2>
         <p class="quote">“Creativity is nothing, but a mind set free.” –Torrie T. Asai</p>
       </header>
     </div>
@@ -56,96 +56,82 @@
         <div class="abBox">
             <h3 class="heading abHeading">About Me</h3>
             <!-- <div class="line"></div> -->
-            <p class="aboutMe">Hi my name is Marlon, nice to meet you. As a junior web designer/ graphic designer I spend most of my time looking for ways to improve myself. I'm a naturally curious person, and I am constantly working on learning new things. In my spare time you'll probably find me listening to music, watching anime or chilling with friends.</p>
+            <p class="aboutMe">Hi my name is Marlon,nice to meet you. As a self taught web developer/ graphic designer I spend most of my time looking for ways to improve myself. I'm a naturally curious person, and I am constantly working on learning new things. In my spare time you'll probably find me listening to music, or chilling with friends. I look forward to working with you!</p>
         </div>
         <img src="res/me.jpg" alt="Photo of Marlon" class="aboutImg">
     </div>
     <!-- Skills Section -->
-    <h4>Skills</h4>
+    <h4>What I Can Do For You</h4>
     <div class="skills">
-      <div class="skillFlex">
-        <div class="skillFlexCircle">
-            <i class="fab fa-html5 skillIcon"></i>
-        </div>
-        <div class="expBar">
-         <p class="exText">HTML5</p>
-         <div class="bar">
-           <div class="innerBar">
-             <p>90%</p>
-           </div>
-         </div>
-        </div>
+      <div class="skillGrid">
+        <div class="skillCard sg1">
+          <div class="skTitle">
+              <i class="fas fa-pencil-alt"></i>
+              <p class="skT">Design</p>
+          </div>
+          <p>You think it, I design it!</p>
+          <ul class="skUl">
+            <li> <span style="font-weight:700;">I Offer:</span></li>
+            <li>UI/UX Design</li>
+            <li>Website Design</li>
+            <li>Poster Design</li>
+          </ul>
+        </div>  
+        <div class="skillCard sg2">
+            <div class="skTitle">
+                <i class="fas fa-laptop"></i>
+                <p class="skT">Coding</p>
+            </div>
+            <p>Beautifully desgined modern websites.</p>
+            <ul class="skUl">
+              <li> <span style="font-weight:700;">I Offer:</span></li>
+              <li>Custom Static Websites</li>
+              <li>Wordpress Websites</li>
+              <li>Portfolio Websites</li>
+            </ul>
+          </div>    
       </div>
-      <div class="skillFlex">
-          <div class="skillFlexCircle">
-              <i class="fab fa-css3-alt skillIcon"></i>
-          </div>
-          <div class="expBar">
-            <p class="exText">CSS3</p>
-            <div class="bar">
-                <div class="innerBar cssBar">
-                    <p>80%</p>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="skillFlex">
-            <div class="skillFlexCircle">
-                <i class="fab fa-js skillIcon"></i>
-            </div>
-            <div class="expBar">
-              <p class="exText">Javascript</p>
-              <div class="bar">
-                <div class="innerBar jsBar">
-                  <p>40%</p>
-                </div>
-              </div>
-            </div>
-          </div>
     </div>
   </section>
   <!-- Portfolio Section -->
   <section class="portfolio" id="portfolio">
     <div class="pWidth">
         <h3 class="heading headingWhite">Portfolio</h3>
-        <div class="gallery">
-          <div class="imageCon gIF">
-              <img src="res/teccenti.jpg" alt="#" class="galImg featured">
-              <div class="overlay">
-                  <div class="text">
-                      <p class="picName">TecCenti</p>
-                      <p class="picCap">A spanish blog used in my Spanish class to work on writing the language. Uses html, css and bootstrap. WIP</p>
-                      <a href="# " class="btn galBtn">View Site</a>
-                  </div>
-              </div>
+        <div class="galGrid">
+          <a href="https://marlonjames.000webhostapp.com/" target="_blank" class="g1"><img src="res/musiclife.jpg" alt="#" class="galImg"></a>
+          <div class="galImgInfo g2">
+            <p class="galName">Music Life</p>
+            <p class="galCap">Music Life is a simple, modern, responsive one page sample site created with Wordpress.</p>
+            <a href="https://marlonjames.000webhostapp.com/ " target="_blank" class="btn">Visit Site</a>
           </div>
-          <div class="imageCon gI1">
-              <img src="res/quote.jpg" alt="#" class="galImg">
-              <div class="overlay">
-                  <div class="text">
-                      <p class="picName">Quote Machine</p>
-                      <p class="picCap">Generates random quotes. Uses Html, Css and Javascript.</p>
-                      <a href="# " class="btn galBtn">View Site</a>
-                  </div>
-              </div>
+          <a href="" class="g3"><img src="res/coming-soon.jpg" alt="#" class="galImg"></a>
+          <div class="galImgInfo g4">
+            <p class="galName">Coming Soon</p>
+            <p class="galCap">Project Coming Soon</p>
+            <!-- <div class="icons">
+              <i class="fab fa-html5 pIcon"></i>
+              <i class="fab fa-css3-alt pIcon"></i>
+              <i class="fab fa-js pIcon"></i>
+            </div> -->
           </div>
-          <div class="imageCon gI2">
-            <img src="res/radio.jpg" alt="#" class="galImg gImg2">
-            <div class="overlay">
-                <div class="text">
-                    <p class="picName">Radioactivity Coin Flip</p>
-                    <p class="picCap">Simulates the randomness of flipping a coin. Uses Html, Css and Javascript.</p>
-                    <a href="# " class="btn galBtn">View Site</a>
-                </div>
+          <a href="#" class="g5"><img src="res/coming-soon.jpg" alt="#" class="galImg"></a>
+          <div class="galImgInfo g6">
+            <p class="galName">Coming Soon</p>
+            <p class="galCap">Project Coming Soon</p>
+            <!-- <div class="icons">
+              <i class="fab fa-html5 pIcon"></i>
+              <i class="fab fa-css3-alt pIcon"></i>
+              <i class="fab fa-js pIcon"></i>
             </div>
+            <button type="submit" id="submit" class="btn">Submit</button> -->
           </div>
-        </div>
-        <div class="pBtn">
-            <a href="# " class="btn">See More</a>
-        </div>
         
+      </div>
+        </div>
     </div>
   </section>
+  <!-- Prices  -->
+  
   <!-- Contact Me Section-->
   <section class="contact" id="contact">
     <h3 class="heading">Contact Me</h3>
@@ -177,13 +163,10 @@
     <p>You can keep in touch with me here.</p>
     <div class="socialImgDiv">
       <div class="skillFlexCircle sFWhite">
-        <i class="fab fa-instagram socialIcon"></i>
+        <a href="https://www.instagram.com/omisoul_jm/"><i class="fab fa-instagram socialIcon"></i></a>
       </div>
       <div class="skillFlexCircle sFWhite">
-          <i class="fab fa-twitter socialIcon"></i>
-      </div>
-      <div class="skillFlexCircle sFWhite">
-            <i class="fab fa-facebook socialIcon"></i>
+          <a href="https://twitter.com/mj_2052"><i class="fab fa-twitter socialIcon"></i></a>
       </div>
     </div>
     <p>&copy; Marlon James 2019</p>
