@@ -28,10 +28,17 @@ a{
   position: relative;
 }
 .menuStack{
-  padding: 10px 30px 0 30px;
+  padding: 10px 20px 0 10px;
   font-size: 1.7rem;
-  color: rgb(179, 179, 179);
+  color: white;
   text-align: left;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.menuBars{
+  background: #008CBA;
+  padding: 7px 10px;
+  border-radius: 0.25rem;
+  
 }
 /* Style the navbar */
 nav {
@@ -55,7 +62,7 @@ nav {
   height: 100vh;
   width: 100%;
   padding: 20px 0;
-  font-size: 4rem;
+  font-size: 3rem;
   top: 0;
   left: 0;
   z-index: 100;
@@ -115,15 +122,7 @@ h4{
 }
 
 
-.skillFlexCircle{
-  background: #457B9D;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .expBar{
   display: none;
 }
@@ -235,6 +234,12 @@ h4{
   border-radius: 0.25rem;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgb(192, 20, 35);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 .galBtn{
   display: none;
@@ -288,11 +293,26 @@ textarea{
 
 .socialIcon{
   font-size: 2rem;
-  color: #364958;
 }
 
-.sFWhite{
-  background: #E8F1F2;
+.skillFlexCircle{
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  transition: 0.5s ease;
+}
+.skillFlexCircle:hover{
+  background: white;
+  color: #364958;
+} 
+.skillFlexCircle:hover .socialIcon{
+  color: #364958;
 }
 
 @media only screen and (min-width: 800px){
@@ -320,6 +340,9 @@ textarea{
   }
   .navLink{
     font-size: 1.2rem;
+  }
+  .navLink:hover{
+    color: #ccc;
   }
   .logo{
     float: left;
@@ -370,8 +393,8 @@ textarea{
     outline: 2px solid #fff;
     outline-offset: -10px;
     text-align: left;
-    max-width: 550px;
-    max-height: 300px;
+    max-width: 580px;
+    max-height: 400px;
     grid-column: 2/ span 4;
     grid-row: 4/ span 3;
     z-index: 4;
