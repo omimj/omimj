@@ -100,6 +100,7 @@ header{
   left: 50%;
   transform: translateX(-50%);
 }
+/*arrows design*/
 .arrows span{
   display: block;
   height: 20px;
