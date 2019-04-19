@@ -26,6 +26,7 @@ a{
   background-position: center;
   color: white;
   position: relative;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .menuStack{
   padding: 10px 20px 0 10px;
@@ -92,6 +93,7 @@ header{
   line-height: 1;
   margin: 7px 0;
 }
+
 .arrows{
   cursor: pointer; 
   margin-top: 20px;
@@ -100,7 +102,6 @@ header{
   left: 50%;
   transform: translateX(-50%);
 }
-/*arrows design*/
 .arrows span{
   display: block;
   height: 20px;
@@ -353,6 +354,12 @@ textarea{
   color: #364958;
 }
 
+@media only screen and (min-height: 680px){
+  .arrows{
+    margin-top: 40px;
+  }
+}
+
 @media only screen and (min-width: 800px){
   header{
     max-width: 100%;
@@ -397,20 +404,20 @@ textarea{
     grid-template-columns: auto auto auto;
   }
   .title{
-    font-size:7rem;
+    font-size:8rem;
     line-height: 1;
     margin: 7px 0;
   }
   .titleCap{
-    font-size: 5rem;
+    font-size: 7rem;
     line-height: 1;
     margin: 7px 0;
   }
+  .quote{
+    font-size: 1.7rem;
+  }
   .arrows{
     bottom: 0;
-  }
-  .quote{
-    font-size: 1.333rem;
   }
   .heading{
     font-size: 3rem;

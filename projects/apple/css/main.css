@@ -49,27 +49,40 @@ nav{
   display: none;
   position: fixed;
   overflow: hidden;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
-  background: #1A6CC9;
+  background: rgba(0, 0, 0, 0.9);
   animation-duration: 0.3s;
   animation-iteration-count: 1;
-  display: grid;
-  grid-template-columns: 1fr;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+.pC{
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px;
 }
 .navPLinks{
-  border-bottom: 2px solid white;
-  padding: 20% 0;
-  font-size: 3rem;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
+  padding: 8px;
   text-decoration: none;
-  overflow: hidden;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+}
+.closebtn {
+  text-decoration: none;
+  color: #818181;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.navPhone a:hover, .navPhone a:focus {
+  color: #f1f1f1;
 }
 .logo{
   height: 20px;
