@@ -449,9 +449,7 @@ h3{
   }
   .text{
     margin: 0 20px;
-  }
-  .test{
-    overflow: visible;
+    display: block;
   }
   footer{
     font-size: 16px;
